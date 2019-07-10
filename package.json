@@ -1,0 +1,24 @@
+{
+  "name": "travis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soulst9/travisdev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soulst9/travisdev/issues"
+  },
+  "homepage": "https://github.com/soulst9/travisdev#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "normalize-port": "^1.0.0"
+  }
+}
