@@ -1,8 +1,11 @@
 /* jshint esversion: 6 */
 
-import http from "http";
-import express from "express";
-import normalizePort from "normalize-port";
+// import http from "http";
+// import express from "express";
+// import normalizePort from "normalize-port";
+const http = require("http");
+const express = require("express");
+const normalizePort = require("normalize-port");
 
 const app = express();
 
